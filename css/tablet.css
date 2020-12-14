@@ -1,0 +1,95 @@
+body{
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.slot-one {
+  width: 50%;
+  height: 270px;
+}
+
+.title {
+  font-size: 37px;
+  line-height: 35px;
+}
+
+.slot-two {
+  margin: 0  0 50px 0;
+  height: 270px;
+  width: 48%;
+  margin-left: 10px;
+}
+
+.rating-text {
+  margin-left: 0;
+}
+
+.stars {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rating-one {
+  width: 100%;
+  height: 75px;
+}
+
+.rating-one-text {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.rating-two {
+  width: 100%;
+  height: 75px;
+}
+
+.rating-two-text {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.rating-three {
+  width: 100%;
+  height: 75px;
+}
+
+.rating-three-text {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.slot-three{
+  justify-content: flex-start;
+  padding-bottom: 50px;
+}
+
+.review-one {
+  margin-bottom: 20px;
+  width: 32%;
+  margin: 0;
+  overflow: auto;
+}
+
+.review-two {
+  margin-bottom: 20px;
+  width: 32%;
+  margin: 0 10px;
+  overflow: auto;
+}
+
+.review-three {
+  width: 32%;
+  margin: 0;
+  overflow:  auto;
+}
+.footer{
+  margin: auto;
+  height: 50px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
